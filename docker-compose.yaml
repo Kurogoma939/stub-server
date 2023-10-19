@@ -1,0 +1,10 @@
+version: '3'
+services:
+  stub-server:
+    build: .
+    image: stub-server
+    container_name: stub-server
+    ports:
+      - "3003:3003"
+    volumes:
+      - ./data:/usr/src/app/data
