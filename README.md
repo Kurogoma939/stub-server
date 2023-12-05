@@ -24,3 +24,6 @@ docker-compose up --build -d
 ### 3. 動作確認
 
 エンドポイントは`http://localhost:3003/path`になります。
+
+### 4. TEST
+- test commit
